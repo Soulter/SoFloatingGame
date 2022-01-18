@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+
+        <ImageView
+            android:src="@drawable/exit"
+            android:id="@+id/webBtnExit"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:src="@drawable/movewin"
+            android:id="@+id/webBtnMove"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_toRightOf="@id/webBtnExit"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/moveLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="拖动窗体"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

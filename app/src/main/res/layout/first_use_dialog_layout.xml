@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:layout_marginLeft="24dp"
+        android:textSize="16dp"
+        android:layout_marginTop="8dp"
+        android:text="更新日志：\n    第一个版本好像不能说是更新哈哈哈😰"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:textSize="16dp"
+        android:textColor="#000"
+        android:text="\n后期版本更新：\n    悬浮剪贴板\n    一键区域截图\n    随手记事 "
+        android:textStyle="bold"/>
+
+</LinearLayout>

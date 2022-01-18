@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">悬浮应用</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+
+
+    <string name="win_alpha1">初始的透明度</string>
+    <string name="win_alpha2">变暗后的透明度</string>
+    <string name="win_alpha_text">悬浮窗透明度</string>
+
+
+</resources>
